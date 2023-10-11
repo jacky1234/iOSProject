@@ -109,7 +109,7 @@ DEPENDENCIES:
   - ZJScrollPageView
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AFNetworking
     - BaiduMapKit
     - DWBubbleMenuButton
@@ -142,7 +142,7 @@ SPEC REPOS:
     - ZJScrollPageView
 
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
   DWBubbleMenuButton: 4d9bdbb9d662bdf65c93ceb7fc65901871143d1e
   FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
@@ -175,4 +175,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: eb944b8090833ced99eac8c062404fd534cd2707
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.10.1

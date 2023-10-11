@@ -329,9 +329,9 @@
 		58DC852D1FFC9B720060DC03 /* LMJCommentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DC852C1FFC9B720060DC03 /* LMJCommentHeaderView.m */; };
 		58DC85331FFCA30C0060DC03 /* UIImageView+FitNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DC85311FFCA30B0060DC03 /* UIImageView+FitNet.m */; };
 		58DC88CE1FFDEEF70060DC03 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC88CD1FFDEEF70060DC03 /* libbz2.1.0.tbd */; };
-		58DC88D01FFDEF030060DC03 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC88CF1FFDEF020060DC03 /* libiconv.2.4.0.tbd */; };
 		58E02EEB209D8A23005431BA /* LMJUniversalLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E02EEA209D8A23005431BA /* LMJUniversalLinkViewController.m */; };
 		58E02EEE209D8BA4005431BA /* LMJUniversalLink.html in Resources */ = {isa = PBXBuildFile; fileRef = 58E02EED209D8BA4005431BA /* LMJUniversalLink.html */; };
+		625A36812AD75F7700931F0C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 625A36802AD75F7700931F0C /* libiconv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -935,6 +935,7 @@
 		58E02EE9209D8A23005431BA /* LMJUniversalLinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJUniversalLinkViewController.h; sourceTree = "<group>"; };
 		58E02EEA209D8A23005431BA /* LMJUniversalLinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJUniversalLinkViewController.m; sourceTree = "<group>"; };
 		58E02EED209D8BA4005431BA /* LMJUniversalLink.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LMJUniversalLink.html; sourceTree = "<group>"; };
+		625A36802AD75F7700931F0C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		AA64D526EE098D357A7E6B09 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -943,7 +944,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58DC88D01FFDEF030060DC03 /* libiconv.2.4.0.tbd in Frameworks */,
+				625A36812AD75F7700931F0C /* libiconv.tbd in Frameworks */,
 				58DC88CE1FFDEEF70060DC03 /* libbz2.1.0.tbd in Frameworks */,
 				58B36C6220ABF3C700915868 /* AudioToolbox.framework in Frameworks */,
 				5892ACC21FF4F45700E868C2 /* libUMessage_Sdk_1.5.0.a in Frameworks */,
@@ -2184,6 +2185,7 @@
 		8FC3A5937CA448C8AE6DDE55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				625A36802AD75F7700931F0C /* libiconv.tbd */,
 				58B36C6120ABF3C700915868 /* AudioToolbox.framework */,
 				58DC88CF1FFDEF020060DC03 /* libiconv.2.4.0.tbd */,
 				58DC88CD1FFDEEF70060DC03 /* libbz2.1.0.tbd */,
@@ -2800,7 +2802,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOSProject/iOSProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 44HDC9YG72;
+				DEVELOPMENT_TEAM = 8V7S7GJ9KA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = iOSProject/LMJiOSProject.pch;
 				INFOPLIST_FILE = iOSProject/Info.plist;
@@ -2908,7 +2910,7 @@
 					"-framework",
 					"\"WebKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = github.com.njhu.iosproject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacky.ios.demo99;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2927,7 +2929,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOSProject/iOSProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 44HDC9YG72;
+				DEVELOPMENT_TEAM = 8V7S7GJ9KA;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = iOSProject/LMJiOSProject.pch;
 				INFOPLIST_FILE = iOSProject/Info.plist;
@@ -3035,7 +3037,7 @@
 					"-framework",
 					"\"WebKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = github.com.njhu.iosproject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacky.ios.demo99;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
