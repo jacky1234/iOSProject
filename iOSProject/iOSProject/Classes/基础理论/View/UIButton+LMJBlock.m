@@ -46,7 +46,7 @@ static const CGFloat defaultTimeInterval = 0.5;
         
         if (isAdd) {
             class_replaceMethod(buttonClass, mySel, method_getImplementation(oriMethod), method_getTypeEncoding(oriMethod));
-        }else {
+        } else {
             method_exchangeImplementations(oriMethod, myMethod);
         }
         
