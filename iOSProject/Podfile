@@ -53,7 +53,7 @@ pod 'FMDB'
 pod 'MBProgressHUD'
 
 # 进度
-pod 'M13ProgressSuite'
+pod 'M13ProgressSuite', :git => 'https://github.com/rogerioth/M13ProgressSuite.git'
 
 # 无限轮播
 pod 'SDCycleScrollView'

@@ -84,7 +84,7 @@ DEPENDENCIES:
   - HMQRCodeScanner
   - IQKeyboardManager
   - KILabel
-  - M13ProgressSuite
+  - M13ProgressSuite (from `https://github.com/rogerioth/M13ProgressSuite.git`)
   - Masonry
   - MBProgressHUD
   - MJExtension
@@ -120,7 +120,6 @@ SPEC REPOS:
     - HMQRCodeScanner
     - IQKeyboardManager
     - KILabel
-    - M13ProgressSuite
     - Masonry
     - MBProgressHUD
     - MJExtension
@@ -140,6 +139,15 @@ SPEC REPOS:
     - YYText
     - ZFPlayer
     - ZJScrollPageView
+
+EXTERNAL SOURCES:
+  M13ProgressSuite:
+    :git: https://github.com/rogerioth/M13ProgressSuite.git
+
+CHECKOUT OPTIONS:
+  M13ProgressSuite:
+    :commit: 203e52a4975296884cc813c7321cdc79aaae514b
+    :git: https://github.com/rogerioth/M13ProgressSuite.git
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
@@ -173,6 +181,6 @@ SPEC CHECKSUMS:
   ZFPlayer: 833cb3974b619bfd01a0ec1ebaabfe6f629e85b4
   ZJScrollPageView: dd8778909cb2413782616ab156e873956f6b0682
 
-PODFILE CHECKSUM: eb944b8090833ced99eac8c062404fd534cd2707
+PODFILE CHECKSUM: b8488af1d2a6cf0c4ae00d3c8a22220e9fb11c61
 
 COCOAPODS: 1.10.1
