@@ -36,6 +36,7 @@
 
 - (void)addChildViewControllers
 {
+    /// 这部分是通过分配一个新的LMJNavigationController实例，并将其初始化为具有一个根视图控制器的导航控制器。根视图控制器是导航控制器中的第一个视图控制器，用户可以通过导航控制器在多个视图控制器之间进行导航。
     LMJNavigationController *one = [[LMJNavigationController alloc] initWithRootViewController:[[LMJHomeViewController alloc] init]];
     
     LMJNavigationController *two = [[LMJNavigationController alloc] initWithRootViewController:[[LMJNewViewController alloc] init]];

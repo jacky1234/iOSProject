@@ -146,7 +146,7 @@ void *run(void *param) {
     
     [self.myThreadList removeAllObjects];
     
-    for(int i=0; i<10;i++)
+    for(int i = 0; i < 10; i++)
     {
         NSThread *thread=[[NSThread alloc]initWithTarget:self selector:@selector(loadAction:) object:[NSNumber numberWithInt:i]];
         thread.name=[NSString stringWithFormat:@"myThread%i",i];

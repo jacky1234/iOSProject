@@ -49,5 +49,29 @@
     return _cellHeight;
 }
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"LMJWordItem - Title: %@, SubTitle: %@", self.title, self.subTitle];
+}
+
+
+
+//- (nonnull id)copyWithZone:(nullable NSZone *)zone {
+//    LMJWordItem *copy = [[[self class] allocWithZone:zone] init];
+//        
+//    // Copy all properties to the new instance
+//    copy.title = [self.title copy];
+//    copy.titleFont = self.titleFont;
+//    copy.titleColor = self.titleColor;
+//    copy.subTitle = [self.subTitle copy];
+//    copy.subTitleFont = self.subTitleFont;
+//    copy.subTitleColor = self.subTitleColor;
+//    copy.subTitleNumberOfLines = self.subTitleNumberOfLines;
+//    copy.image = self.image;
+//    copy.cellHeight = self.cellHeight;
+//    copy.needCustom = self.needCustom;
+//    copy.itemOperation = self.itemOperation;
+//    
+//    return copy;
+//}
 
 @end
