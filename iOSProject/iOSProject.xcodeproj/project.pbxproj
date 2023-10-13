@@ -1816,7 +1816,6 @@
 				58DC83581FFB43100060DC03 /* LMJCoreAnimationViewController.m */,
 				58DC835D1FFB43460060DC03 /* CoreAnimationControllers */,
 				58DC83901FFB437F0060DC03 /* Model */,
-				58DC83911FFB437F0060DC03 /* View */,
 			);
 			path = "核心动画";
 			sourceTree = "<group>";
@@ -1872,13 +1871,6 @@
 				58DC83F41FFB478D0060DC03 /* CATransition3.png */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		58DC83911FFB437F0060DC03 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		58DC83921FFB439A0060DC03 /* Model */ = {

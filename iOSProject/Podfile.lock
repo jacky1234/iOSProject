@@ -19,19 +19,19 @@ PODS:
   - FCUUID (1.3.1):
     - UICKeyChainStore (~> 2.1.0)
   - FDFullscreenPopGesture (1.1)
-  - FLAnimatedImage (1.0.12)
+  - FLAnimatedImage (1.0.17)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - HMQRCodeScanner (1.0.6)
-  - IQKeyboardManager (6.5.6)
+  - IQKeyboardManager (6.5.11)
   - KILabel (1.0.1)
   - M13ProgressSuite (1.2.9)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - MJExtension (3.2.2)
-  - MJRefresh (3.5.0)
-  - MOFSPickerManager (2.2.4)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
+  - MOFSPickerManager (3.0.1)
   - Reachability (3.2)
   - SDCycleScrollView (1.75):
     - SDWebImage (>= 4.0.0)
@@ -42,7 +42,11 @@ PODS:
     - FLAnimatedImage (~> 1.0)
     - SDWebImage/Core
   - Toast (4.0.0)
-  - TZImagePickerController (3.4.2)
+  - TZImagePickerController (3.8.3):
+    - TZImagePickerController/Basic (= 3.8.3)
+    - TZImagePickerController/Location (= 3.8.3)
+  - TZImagePickerController/Basic (3.8.3)
+  - TZImagePickerController/Location (3.8.3)
   - UICKeyChainStore (2.1.2)
   - UMengAnalytics (4.2.4)
   - UMengUShare/Core (6.4.8.2):
@@ -155,22 +159,22 @@ SPEC CHECKSUMS:
   DWBubbleMenuButton: 4d9bdbb9d662bdf65c93ceb7fc65901871143d1e
   FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   HMQRCodeScanner: 8db2d317c0e5cbe3b4709fe2b9f26c107d66554e
-  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
   KILabel: 4797807cdc0b4992dad8bf91175ddc973c3b569b
   M13ProgressSuite: ea9f7263e73e9215e6849dfa54e29ee0ad6a145c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
-  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
-  MOFSPickerManager: 24c0a437874696622f132c47a351b89df5030f19
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  MOFSPickerManager: ff19ea9d528afa0d00ad363e7288a5ee54a9deef
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
-  TZImagePickerController: cc0b74d5f01ab4cddcc24dcdfc3c7d68e6261056
+  TZImagePickerController: e9909edbadf7381140efc5b5c9f5bdbfd630f7d4
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
   UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
   UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
