@@ -70,6 +70,7 @@ const UIEdgeInsets tableViewDefaultLayoutMargins = {8, 8, 8, 8};
         
         if(arrowItem.destVc)
         {
+            NSLog(@"[LMJStaticTableViewController] to start controller: %@", NSStringFromClass(arrowItem.destVc));
             UIViewController *vc = [[arrowItem.destVc alloc] init];
             if ([vc isKindOfClass:[UIViewController class]]) {
                 vc.navigationItem.title = arrowItem.title;
