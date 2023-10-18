@@ -162,7 +162,7 @@
 //    LMJWordArrowItem *item23 = [LMJWordArrowItem itemWithTitle:@"人脸识别" subTitle: nil];
 //    item23.destVc = [LMJFaceRecognizeViewController class];
 
-    LMJWordArrowItem *item24 = [LMJWordArrowItem itemWithTitle:@"列表加载图片s" subTitle: @"模仿sdwebImage"];
+    LMJWordArrowItem *item24 = [LMJWordArrowItem itemWithTitle:@"列表加载图片" subTitle: @"模仿sdwebImage"];
 
     item24.destVc = [LMJWebImagesCacheViewController class];
 

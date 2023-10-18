@@ -92,13 +92,14 @@
     @synchronized(self) {
         [self.products enumerateObjectsUsingBlock:^(LMJCountDownModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             if (obj.date == 0) {
-            }else {
+            } else {
                 obj.date--;
             }
         }];
         
         [[self.tableView visibleCells] enumerateObjectsUsingBlock:^(__kindof UITableViewCell * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             LMJCountDownCell *cell = (LMJCountDownCell *)obj;
+            // todo 这里为什么会主动刷新呢？
             cell.countDownModel = cell.countDownModel;
         }];
     }
